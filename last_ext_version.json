@@ -1,0 +1,11 @@
+{
+	"stable": {
+		"4.0": {
+			"current": "4.0.0",
+			"announcement": "https://github.com/xchwarze/ckeditor-phpbb/releases/tag/v4.0.0",
+			"download": "https://github.com/xchwarze/ckeditor-phpbb/archive/refs/tags/v4.0.0.zip",
+			"eol": null,
+			"security": false
+		}
+	}
+}

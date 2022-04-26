@@ -3,11 +3,12 @@
 *
 * @package Error Pages
 * @copyright (c) 2014 ForumHulp.com
+*            (c) 2022 DSR!
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
-namespace forumhulp\errorpages\event;
+namespace dsr\errorpages\event;
 
 /**
 * @ignore
@@ -26,7 +27,7 @@ class acp_listener implements EventSubscriberInterface
 	* Constructor
 	*
 	* @param \phpbb\controller\helper    $helper        Controller helper object
-	*/
+ 	*/
 	public function __construct(\phpbb\controller\helper $helper)
 	{
 		$this->helper = $helper;

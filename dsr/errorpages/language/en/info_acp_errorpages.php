@@ -1,11 +1,12 @@
 <?php
 /**
-*
-* @package Errorpages
-* @copyright (c) 2014 ForumHulp.com
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package Error Pages
+ * @copyright (c) 2014 ForumHulp.com
+ *            (c) 2022 DSR!
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
 /**
 * DO NOT CHANGE!
@@ -39,7 +40,6 @@ $lang = array_merge($lang, array(
 	'ERRORPAGES_LOG_EXPLAIN'			=> 'Log all Error Pages in Error Log in Maintenance Tab',
 	'ERRORPAGES_EXPLAIN'				=> 'Explain Error Pages',
 	'ERRORPAGES_EXPLAIN_EXPLAIN'		=> 'Explain error in message display',
-	'ERRORPAGE_NOTICE'					=> '<div class="phpinfo"><p class="entry">Config settings are in %1$s » %2$s » %3$s.</p></div>',
 	'ERROR_BAD_REQUEST' 				=> 'Bad Request',
 	'ERROR_BAD_REQUESTEXPA' 			=> 'The request had bad syntax or was inherently impossible to be completed.',
 	'ERROR_AUTH_REQUIRED' 				=> 'Authorization Required',
@@ -70,12 +70,12 @@ $lang = array_merge($lang, array(
 	'REQUEST_URI_TOO_LONGEXPA'			=> 'The URI provided was too long for the server to process. Often the result of too much data being encoded as a query-string of a GET request, in which case it should be converted to a POST request.',
 	'UNSUPPORTED_MEDIA_TYPE'			=> 'Unsupported Media Type',
 	'UNSUPPORTED_MEDIA_TYPEEXPA'		=> 'The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.',
-	'TEAPOT'							=> 'I’m a teapot (RFC 2324)',
-	'TEAPOTEXPA'						=> 'This code was defined in 1998 as one of the traditional IETF April Fools’ jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol, and is not expected to be implemented by actual HTTP servers.',
+	'TEAPOT'							=> 'I\'m a teapot (RFC 2324)',
+	'TEAPOTEXPA'						=> 'This code was defined in 1998 as one of the traditional IETF April Fools\' jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol, and is not expected to be implemented by actual HTTP servers.',
 	'INTERNAL_SERVER_ERROR'				=> 'Internal Server Error',
 	'INTERNAL_SERVER_ERROREXPA' 		=> 'The server encountered an unexpected condition which prevented it from fulfilling the request.',
 	'NOT_IMPLEMENTED' 					=> 'Not implemented',
-	'NOT_IMPLEMENTEDEXPA' 				=> 'The server doesn’t support the facility required.',
+	'NOT_IMPLEMENTEDEXPA' 				=> 'The server doesn\'t support the facility required.',
 	'BAD_GATEWAY' 						=> 'Bad Gateway',
 	'BAD_GATEWAYEXPA' 					=> 'The server was acting as a gateway or proxy and received an invalid response from the upstream server.',
 	'SERVICE_UNAVAILABLE' 				=> 'Service Unavailable',
@@ -85,6 +85,5 @@ $lang = array_merge($lang, array(
 	'HTTP_VERSION_NOT_SUPPORTED' 		=> 'HTTP Version Not Supported',
 	'HTTP_VERSION_NOT_SUPPORTEDEXPA' 	=> 'The server does not support the HTTP protocol version used in the request.',
 	'ERROR_UNKNOWN'     	  		 	=> 'Unknown Server Error',
-	'ERROR_UNKNOWNEXPA'      		 	=> '',
-	'FH_HELPER_NOTICE'		=> 'Forumhulp helper application does not exist!<br />Download <a href="https://github.com/ForumHulp/helper" target="_blank">forumhulp/helper</a> and copy the helper folder to your forumhulp extension folder.',
+	'ERROR_UNKNOWNEXPA'      		 	=> ''
 ));

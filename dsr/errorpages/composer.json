@@ -1,11 +1,9 @@
 {
-    "name": "forumhulp/errorpages",
+    "name": "dsr/errorpages",
     "type": "phpbb-extension",
     "description": "Error Pages displays Apache errors in your forums style.",
-    "homepage": "http://forumhulp.com",
-    "version": "3.1.2",
+    "version": "4.0.0",
     "keywords": [
-        "forumhulp",
         "phpbb",
         "extension",
         "error",
@@ -18,20 +16,26 @@
             "homepage": "http://forumhulp.com",
             "email": "info@forumhulp.com",
             "role": "Developer"
+        }, {
+            "name": "DSR!",
+            "email": "xchwarze@gmail.com",
+            "homepage": "https://github.com/xchwarze",
+            "role": "owner"
         }
     ],
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.6.0"
     },
     "extra": {
         "display-name": "Error pages",
         "soft-require": {
-            "phpbb/phpbb": ">=3.1.*"
+            "phpbb/phpbb": ">=3.2.0"
         },
         "version-check": {
-			"host": "forumhulp.com",
-			"directory": "/versioncheck",
-			"filename": "error-pages"
+            "host": "raw.githubusercontent.com",
+            "directory": "/xchwarze/errorpages-phpbb/master",
+            "filename": "last_ext_version.json",
+            "ssl": true
         }
     }
 }

@@ -1,0 +1,18 @@
+services:
+    kernel.listener.dsr_errorpages:
+        class: dsr\errorpages\event\listener
+        arguments:
+            - '@config'
+            - '@user'
+            - '@template'
+            - '@log'
+            - '@language'
+        tags:
+            - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
+
+    dsr.errorpages.acp_listener:
+        class: dsr\errorpages\event\acp_listener
+        arguments:
+            - '@controller.helper'
+        tags:
+            - { name: event.listener }

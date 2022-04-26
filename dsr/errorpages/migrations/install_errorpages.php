@@ -1,13 +1,14 @@
 <?php
 /**
-*
-* @package Error Pages
-* @copyright (c) 2014 ForumHulp.com
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package Error Pages
+ * @copyright (c) 2014 ForumHulp.com
+ *            (c) 2022 DSR!
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
-namespace forumhulp\errorpages\migrations;
+namespace dsr\errorpages\migrations;
 
 class install_errorpages extends \phpbb\db\migration\migration
 {
@@ -18,7 +19,7 @@ class install_errorpages extends \phpbb\db\migration\migration
 
 	static public function depends_on()
 	{
-		return array('\phpbb\db\migration\data\v310\gold');
+		return array('\phpbb\db\migration\data\v310\dev');
 	}
 
 	public function update_data()
